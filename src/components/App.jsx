@@ -3,7 +3,7 @@ import { ContactForm } from './ContactForm/ContactForm';
 
 import { Container, Title} from './ContactForm/ContactForm.styled';
 import { nanoid } from 'nanoid';
-import { ContactItem } from './ContactItem/ContactItem';
+import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 export class App extends Component {
 
@@ -70,7 +70,7 @@ export class App extends Component {
           onChange={this.changeFilter}
           value={this.state.filter}
  />
-         <ContactItem onDelete={this.handleDeleteContact}
+         <ContactList title="Contacts" onDelete={this.handleDeleteContact}
           contacts={visibleContacts}/>
 
 

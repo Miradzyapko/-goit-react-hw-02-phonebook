@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import { List, ListItem, Item} from './ContactItem.Styled'; 
-import { Button } from './ContactItem.Styled';
+import { List, ListItem, Item} from './ContactList.Styled'; 
+import { Button } from './ContactList.Styled';
 
-export const ContactItem = ({contacts, onDelete }) => {
+export const ContactList = ({contacts, onDelete }) => {
     return (
         <List>   
         {contacts.map(({ id, name, number }) => (
@@ -14,7 +14,7 @@ export const ContactItem = ({contacts, onDelete }) => {
     </List>
 )
         }
-ContactItem.propTypes = {
+ContactList.propTypes = {
     onDelete: PropTypes.func.isRequired,
     contacts: PropTypes.arrayOf(PropTypes.exact({
         id: PropTypes.string.isRequired,
