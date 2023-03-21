@@ -4,8 +4,7 @@ import { Button } from './ContactItem.Styled';
 
 export const ContactItem = ({contacts, onDelete }) => {
     return (
-        <List>
-            
+        <List>   
         {contacts.map(({ id, name, number }) => (
             <ListItem key={id}>
                 <Item>{name}: {number}</Item>
@@ -15,7 +14,6 @@ export const ContactItem = ({contacts, onDelete }) => {
     </List>
 )
         }
-
 ContactItem.propTypes = {
     onDelete: PropTypes.func.isRequired,
     contacts: PropTypes.arrayOf(PropTypes.exact({
