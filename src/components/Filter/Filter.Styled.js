@@ -13,4 +13,5 @@ export const Input = styled.input`
 export const Label = styled.label`
 font-size:14px;
 font-weight:200;
-justify-content: center`;
+justify-content: center;
+`;

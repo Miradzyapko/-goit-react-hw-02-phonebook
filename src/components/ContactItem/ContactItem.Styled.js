@@ -10,9 +10,10 @@ export const List = styled.ul`
 
 `;
 export const Button = styled.button`
-padding: 15px 25px
-cursor: pointer
-border-radius: 4px
+padding: 15px 25px;
+cursor: pointer;
+border-radius: 4px;
+background: orange;
 border: 1px solid grey`;
 
 export const Item = styled.p`
