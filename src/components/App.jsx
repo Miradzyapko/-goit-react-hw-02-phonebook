@@ -67,7 +67,7 @@ export class App extends Component {
         <ContactForm title="Phonebook" onSubmit={this.FormSubmitHandler} />
          <Title>Contacts</Title>
          <Filter
-          onChange={this. changeFilter}
+          onChange={this.changeFilter}
           value={this.state.filter}
  />
          <ContactItem onDelete={this.handleDeleteContact}

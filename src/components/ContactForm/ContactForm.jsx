@@ -2,7 +2,7 @@
 import React from "react";
 
 import { Component } from "react";
-import { Title, Container , Button, Form, label } from "./ContactForm.styled";
+import { Title, Container , Button, Form, Label } from "./ContactForm.styled";
 
 
 export class ContactForm extends Component {
@@ -33,7 +33,7 @@ export class ContactForm extends Component {
             Phonebook
             <Container>
                 <Form onSubmit={this.handleSubmit}>
-                    <label>Name</label>
+                    <Label>Name</Label>
                 <input
   type="text"
   name="name"
@@ -44,7 +44,7 @@ export class ContactForm extends Component {
   required
   
 /> 
-<label>Number</label>
+<Label>Number</Label>
 <input
   type="tel"
   name="number"

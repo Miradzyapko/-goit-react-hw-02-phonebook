@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const input = styled.form`
+export const Input = styled.input`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +10,7 @@ export const input = styled.form`
   margin-bottom: 10px;
  margin: 0
 `;
-export const label = styled.h1`
+export const Label = styled.label`
 font-size:14px;
 font-weight:200;
 justify-content: center`;

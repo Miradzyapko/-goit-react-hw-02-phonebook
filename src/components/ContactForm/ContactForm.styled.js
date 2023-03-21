@@ -34,6 +34,6 @@ export const Container = styled.div`
   border-radius: 50px;
   background-color: grey;
   `;
-  export const label = styled.h1`
+  export const Label = styled.label`
   font-size: 14px
   color: black`;
