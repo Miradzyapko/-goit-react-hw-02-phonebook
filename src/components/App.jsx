@@ -58,10 +58,6 @@ export class App extends Component {
     render() {
       const visibleContacts = this.visibleContacts();
   
- 
-
-
-   
     return (
       <Container>
         <ContactForm title="Phonebook" onSubmit={this.FormSubmitHandler} />
