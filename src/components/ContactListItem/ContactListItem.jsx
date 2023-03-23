@@ -13,7 +13,7 @@ import { ContactListItem } from './ContactListItem.Styled';
       </button>
     </li>
   )}
-  console.log({ContactListItem});
+
 ContactListItem.PropTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
