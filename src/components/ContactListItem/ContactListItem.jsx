@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button } from './ContactList.Styled'
-import { ContactListItem } from './ContactListItem.Styled';
+import { Button } from './ContactList.Styled';
+import { ListItem } from './ContactListItem.Styled'
  export const ContactListItem = ({ name, number, id, onDelete }) => {
   return (
-    <li>
+    <ListItem>
       <p>
         {name}:{number}
       </p>
       <button type="button" onClick={() => onDelete(id)}>
         Delete
       </button>
-    </li>
+    </ListItem>
   )}
 
 ContactListItem.PropTypes = {

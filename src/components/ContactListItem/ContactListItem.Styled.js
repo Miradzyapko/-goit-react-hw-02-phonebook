@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-export const ContactListItem = styled.li`
+export const ListItem = styled.li`
 
 color: blue;
   margin-bottom: 5px;
