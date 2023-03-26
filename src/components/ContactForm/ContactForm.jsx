@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import { nanoid } from 'nanoid';
 import { Component } from "react";
 import { Title, Container , Button, Form, Label } from "./ContactForm.styled";
 
