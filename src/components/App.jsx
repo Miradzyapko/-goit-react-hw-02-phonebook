@@ -68,9 +68,6 @@ export class App extends Component {
  />
          <ContactList title="Contacts" onDelete={this.handleDeleteContact}
           contacts={visibleContacts}/>
-
-
-
 </Container>
     )
   }
