@@ -5,9 +5,9 @@ import { ListItem } from './ContactListItem.Styled'
  export const ContactListItem = ({ name, number, id, onDelete }) => {
   return (
     <ListItem>
-      <p>
+      <li>
         {name}:{number}
-      </p>
+      </li>
       <button type="button" onClick={() => onDelete(id)}>
         Delete
       </button>
